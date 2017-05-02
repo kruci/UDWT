@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>Something with a potato - Obchod</title>
+    <link href="styly.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <header>
+  <h1>Obchod</h1>
+  </header>
+
+  <nav>
+	<a href="index.html">Hlavná stránka</a> 
+	<a href="ohre.html">O hre</a> 
+	<a href="objednavka.html">Obchod</a> 
+	<a href="kontakt.html">Kontakt</a>
+  </nav>
+
+<section>
+  	<div id="order">
+  	<form>
+  		<fieldset><legend>Objednávka</legend>
+  		<label for="o_meno">Meno*</label>
+  		<input name="meno" type="text" id="o_meno" required placeholder="meno" size="16" maxlength="30" autofocus><br>
+  		<label for="o_heslo1">Heslo*</label>
+  		<input name="heslo1" type="password" id="o_heslo1" required placeholder="heslo" size="16" maxlength="30"><br>
+  		<label for="o_heslo2">Heslo*</label>
+  		<input name="heslo2" type="password" id="o_heslo2" required placeholder="heslo" size="16" maxlength="30"><br>
+  		<label for="o_mail">mail*</label>
+  		<input name="mail" type="email" id="o_mail" required placeholder="mail@provider.com"><br>
+
+  		<label for="o_sutaz">Chcem sa zapojiť do sútaže o čarovný<sup>1</sup> zemiak</label>
+  		<input name="sutaz" type="checkbox" id="o_sutaz"><br>
+
+  		<label for="o_balicek">Balíček*</label>
+  		<select name="balicek" size="3" multiple id="o_balicek" required>
+  			<option value="hra" selected="">JuicyPlebs: Something with a potato -> 2€</option>
+  			<option value="dlc1">Kawai DLC ->49.98€</option>
+  			<option value="dlc2">Nohy DLC -> k nezaplateniu</option>
+  		</select><br>
+
+  		<input name="Odoslať" type="submit" id="o_odoslat" value="Odoslať">
+  		</fieldset>
+  	</form>
+  	<p>1 "čarovný" je relatívne<br>2 "objednať" je relatívne<br>* povinné</p>
+  </div>
+
+  <div id="balicky">
+  	<figure>
+  		<figcaption>Samotná hra</figcaption>
+  		<img src="obrazky/db.png" alt="vanillagame" width="100" height="100">
+  		<p>Základná hra, obsahuje 4 velmi zaujímavé príbehové levely.</p>
+  	</figure>
+  	<figure>
+  		<figcaption>Kawai DLC</figcaption>
+  		<img src="obrazky/zemiacik.png" alt="zemiacik" width="100" height="100">
+  		<p>Nie len kozmetické zmeny ktoré príjemne osviežia hru.</p>
+  	</figure>
+  	<figure>
+  		<figcaption>Nohy DLC</figcaption>
+  		<img src="obrazky/noha.png" alt="noha" width="100" height="100">
+  		<p>Prináša dosiaľ nepoznané mechanizmy do hry.</p>
+  	</figure>
+  </div>
+
+  </section>
+  
+  <div id="login">
+  	<form>
+  		<fieldset><legend>LogIn</legend>
+  		<label for="_meno">Meno</label>
+  		<input name="meno" type="text" id="_meno" required placeholder="meno" size="16" maxlength="30">
+  		<label for="_heslo">Heslo</label>
+  		<input name="heslo" type="password" id="_heslo" required placeholder="heslo" size="16" maxlength="30">
+  		<input name="OK" type="submit" id="_odosli" value="OK">
+  		<a href="objednavka.html" id="_nemamucet">Nemám účet</a>
+  		</fieldset>
+  	</form>
+  </div>
+
+  <aside>
+  	<p>Len dens DLC za 49.98€</p>
+  	<img src="obrazky/zemiacik.png" alt="reklamynobrazok">
+  </aside>
+
+  <div id="prefooter"></div>
+  <footer>
+  	<p>vytvoril: Rastislav Kučera 2016</p>
+  </footer>
+
+  </body>
+</html> 

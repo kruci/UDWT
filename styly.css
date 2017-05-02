@@ -1,0 +1,203 @@
+body{
+	margin: 0 0;
+	background-color: rgb(200,200,200);
+}
+
+html, body{
+	height: 100%;
+}
+
+header{
+	text-align: center;
+	background:radial-gradient(ellipse at center, rgba(128,0,128,1) 0%, rgba(0,0,0,1) 100%);
+	padding: 20pt 0;
+}
+
+header h1{
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    color: rgba(255,255,255,1);
+}
+
+nav{
+	position: relative;
+	float: left;
+	width: calc(14.8% - 4pt);
+	border: 2pt solid rgba(0,0,0,0.5);
+	margin-right: 0.2%;
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 10pt 0;
+	border: 2pt solid rgba(0,0,0,0.5);
+}
+
+nav a:hover{
+	color: #333333;
+	background-color: rgba(255,255,255,0.25);
+}
+
+#prefooter{
+	z-index: 99;
+	min-height: calc(100% - 44pt - 2em - 1em);
+}
+
+footer{
+	z-index: 99;
+	width: 100%;
+	background:radial-gradient(ellipse at center, rgba(128,0,128,1) 0%, rgba(0,0,0,1) 100%);
+	text-align: center;
+	font-size: 70%;
+	color: white;
+	clear: both;
+	height: auto;
+}
+footer p{
+	margin: 0;
+}
+
+section{
+	position: relative;
+	width: 69%;
+	margin: auto;
+	float: left;
+	border: 2pt solid rgba(0,0,0,0.5);
+	margin-bottom: 2em;
+	padding: 0.5% 0.5%;
+}
+
+article{
+	text-align: center;
+}
+
+aside{
+	width: calc(15% - 5pt - 1%);
+	position: relative;
+	margin: 0.5% 0.5%;
+	float: right;
+	border: 2pt solid rgba(0,0,0,0.5);
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,255,0.5);
+	background-color: rgba(255,215,0,0.5);
+}
+aside p{
+	margin: 5% 5%;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+#login{
+	width: calc(15% - 5pt);
+	position: relative;
+	margin: auto;
+	float: right;
+	text-align: center;
+}
+#login input{
+	margin-bottom: 1em;
+}
+
+#_nemamucet{
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border: 1px solid rgba(0,0,0,0.35);
+  font: 13.3333px Arial;
+}
+
+#Triler{
+	text-align: center;
+	font-size: 220%;
+	font-weight: bold;
+	margin: 5% 0;
+}
+
+#Triler video{
+	margin: 1% auto;
+	display: block;
+	max-width: 100%;
+}
+
+#order{
+	position: relative;
+	text-align: center;
+	width: 48%;
+	float: left;
+}
+
+#order input{
+	margin:4% 0;
+}
+
+#balicky {
+	width: 48%;
+	position: relative;
+	float: right;
+}
+
+#balicky figure{
+	border: 2px solid rgba(0,0,0,0.5);
+	padding: 0.5em 0.5em;
+	overflow: auto;
+}
+
+#balicky figcaption{
+	text-align: center;
+	font-weight: bold;
+}
+
+#balicky img{
+	float: left;
+	margin-right: 1em;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table img{
+	vertical-align: middle;
+	margin-left: 0.5em;
+}
+
+table {
+	width: 100%;
+}
+
+table tr:first-child{
+	height: 54px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+table tr:first-child th:first-child{
+	background: linear-gradient(45deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 14%, rgba(0,0,0,1) 79%, rgba(0,0,0,1) 100%); 
+}
+
+table tr td:first-child{
+	background-color: rgba(255,255,255,0.5);
+}
+
+img{
+	max-width: 100%;
+}
+
+ol{
+	width: 33%;
+	list-style-position: inside;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+}
+
+ol img{
+	vertical-align: middle;
+	margin-right: 0.5em;
+}

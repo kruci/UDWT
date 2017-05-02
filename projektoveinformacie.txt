@@ -1,0 +1,17 @@
+Hlavné časti projektu:
+	Hlavička 	(header)
+	Päta	    (footer, #prefooter)	
+	LogIn		(#login)
+	Reklama		(aside)
+	Navigácia	(nav)
+	Hlavná časť	(section)
+	Ponuka		(#balicky)
+	Objednávka	(#order)
+
+Odskúšané v:
+	Firefox-50.0-1-x86_64
+	Chromium-54.0.2840.71-x86_64
+
+Internet Exploder nemám kedže inštalovať ho na Linux nemá (okrem iného) zmysel ...
+
+Všetok materiál použitý pri tvorbe stránok je vlastný z projektu https://github.com/kruci/Juicy-Plebs
